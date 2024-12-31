@@ -13,12 +13,12 @@ const Contact = () => {
             <div className="relative rounded-lg bg-black py-24 text-blue-50 sm:overflow-hidden">
                 <div className="absolute -left-20 top-0 hidden h-full w-72 overflow-hidden sm:block lg:left-20 lg:w-96">
                     <ImageClipBox
-                        src="/img/kakashi.jpg"
+                        src="./img/kakashi.jpg"
                         clipClass="contact-clip-path-2"
                         className="object-cover"
                     />
                     <ImageClipBox
-                        src="img/sasuke.png"
+                        src="./img/sasuke.png"
                         clipClass="contact-clip-path-1 lg:translate-y-40 translate-y-60"
                         className="object-cover"
                     />
@@ -26,11 +26,11 @@ const Contact = () => {
 
                 <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80">
                     {/* <ImageClipBox
-                        src="/img/123.jpg"
+                        src="./img/123.jpg"
                         clipClass="absolute md:scale-125"
                     /> */}
                     <ImageClipBox
-                        src="/img/itachi.jpg"
+                        src="./img/itachi.jpg"
                         clipClass="sword-man-clip-path md:scale-125"
                         className="object-cover"
                     />
