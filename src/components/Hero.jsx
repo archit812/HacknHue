@@ -135,7 +135,7 @@ function Hero() {
                 <div className="absolute left-0 top-0 z-40 size-full">
                     <div className="mt-24 px-5 sm:px-10">
                         {/* <h1 className="special-font hero-heading text-blue-100">HACK <b>& </b>HUE</h1> */}
-                        <img src="img/heroSection.png" alt="" className="md:w-[50rem] md:relative md:left-[4rem]  md:h-[16rem] object-cover" />
+                        <img src="./img/heroSection.png" alt="" className="md:w-[50rem] md:relative md:left-[4rem]  md:h-[16rem] object-cover" />
                         <p className="tracking-tight md:w-[32rem] ml-4 text-[1.8rem] h-[5rem] vampiro_one text-start md:ml-[8rem] md:text-start mt-4 font-robert-medium text-blue-100 uppercase md:text-3xl">Redefine your business with us</p>
                     </div>
                 </div>
