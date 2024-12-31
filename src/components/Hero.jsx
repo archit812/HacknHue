@@ -26,7 +26,7 @@ function Hero() {
     }
 
     const getVideoSrc = (path) => {
-        return `videos/JK-${path}.mp4`;
+        return `./videos/JK-${path}.mp4`;
     }
 
     const handleVideoLoadFunc = () => {
