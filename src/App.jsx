@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <main className="relative min-h-screen w-screen overflow-x-hidden" onMouseMove={handleMouse}>
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
       {/* <p id="#para">Hi</p> */}
       <NavBar />
       <Hero />
