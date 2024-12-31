@@ -26,8 +26,8 @@ const NavBar = () => {
         setIsAudioPlaying((prev) => !prev);
         setIsIndicatorActive((prev) => !prev);
     };
-    console.log("currentScrollY ", currentScrollY);
-    console.log("lastScrollY ", lastScrollY);
+    // console.log("currentScrollY ", currentScrollY);
+    // console.log("lastScrollY ", lastScrollY);
 
     // Manage audio playback
     useEffect(() => {
